@@ -1,0 +1,66 @@
+name: todo_app
+description: A Flutter TODO app.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.1
+  shared_preferences: ^2.0.15
+  fluttertoast: ^8.1.2
+  sqflite: ^2.2.3
+  intl: ^0.17.0
+  font_awesome_flutter: ^10.3.0
+  flutter_slidable: ^2.0.0
+  hexcolor: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  fonts:
+
+    - family: Lato
+      fonts:
+        - asset: assets/fonts/Lato-Regular.ttf
+
+    - family: Audiowide
+      fonts:
+        - asset: assets/fonts/Audiowide-Regular.ttf
+
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Ubuntu
+      fonts:
+        - asset: assets/fonts/Ubuntu-Regular.ttf
+
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-VariableFont_wdth,wght.ttf
